@@ -27,11 +27,11 @@ public static class SeedData
             CustomerId = Guid.NewGuid(),
             Address = new Address()
             {
-                FullName = "Dennis van der Stelt",
-                Street = "Van Zandvlietplein 1",
-                ZipCode = "3077 AA",
-                Town = "Rotterdam",
-                Country = "The Netherlands"
+                FullName = "Ted Bear",
+                Street = "1st Ave S",
+                ZipCode = "55555",
+                Town = "Bliss",
+                Country = "USA"
             }
         };
     }
