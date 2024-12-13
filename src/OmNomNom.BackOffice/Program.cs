@@ -1,6 +1,7 @@
 using System.Reflection;
 using ITOps.Shared.EndpointConfiguration;
 using ITOps.Shared.Integration;
+using Microsoft.Extensions.Hosting;
 using ServiceComposer.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -35,5 +36,7 @@ else
 app.UseRouting();
 app.MapControllers();
 app.MapCompositionHandlers();
+
+Console.Title = "BackOffice Server";
 
 app.Run();
