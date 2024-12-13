@@ -1,4 +1,5 @@
 using ITOps.Shared.EndpointConfiguration;
+using Microsoft.Extensions.Hosting;
 using ServiceComposer.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -45,5 +46,7 @@ app.UseCors();
 
 app.UseHttpsRedirection();
 app.MapCompositionHandlers();
+
+Console.Title = "Composition Gateway";
 
 app.Run();
