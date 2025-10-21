@@ -6,7 +6,7 @@
     <toRun name="Finance.Endpoint" type="DotNetProject" />
     <toRun name="PaymentInfo.Endpoint" type="DotNetProject" />
     <toRun name="Shipping.Endpoint" type="DotNetProject" />
-    <toRun name="dev" type="js.build_tools.npm" />
+    <toRun name="website: run" type="js.build_tools.npm" />
     <method v="2" />
   </configuration>
 </component>
