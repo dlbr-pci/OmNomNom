@@ -29,9 +29,9 @@ public class AddressComposer(IWorkflowStore workflow, IHttpContextAccessor http)
         // Hahaha, we don't look it up, we just return the address
         // of the best football team in The Netherlands!
         new(
-            FullName: "Dennis van der Stelt",
-            Street: "Van Zandvlietplein 1",
-            ZipCode: "3077 AA",
-            Town: "Rotterdam",
-            Country: "The Netherlands");
+            FullName: "Fred Bear",
+            Street: "2nd Ave S",
+            ZipCode: "55555",
+            Town: "Bliss",
+            Country: "USA");
 }

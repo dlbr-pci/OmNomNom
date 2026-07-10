@@ -39,11 +39,11 @@ public class AddressComposer(IWorkflowStore workflow, IHttpContextAccessor http)
         // of the best football team in The Netherlands!
         return new Address
         {
-            FullName = "Dennis van der Stelt",
-            Street = "Van Zandvlietplein 1",
-            ZipCode = "3077 AA",
-            Town = "Rotterdam",
-            Country = "The Netherlands"
+            FullName = "Fred Bear",
+            Street = "2nd Ave S",
+            ZipCode = "55555",
+            Town = "Bliss",
+            Country = "USA"
         };
     }
 }
